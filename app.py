@@ -1,4 +1,4 @@
-import streamlit as streamlit
+import streamlit as st
 # streamlit: web based app making
 # lite python framework
 st.title("AI Resume maker")
