@@ -98,7 +98,7 @@ resume_maker_prompt()
 
   #===========Resume generator===========
 
-  prompt="""you are a helpful AI assistance
+prompt="""you are a helpful AI assistance
 with job resume maker, your task is to give
 HTML format resume, with proper designing using recent CSS and JS
 code, with professional design format, user will upload data and return
