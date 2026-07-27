@@ -1,7 +1,6 @@
 import streamlit as streamlit
 # streamlit: web based app making
 # lite python framework
-
 st.title("AI Resume maker")
 
 st.markdown("""## User can create 
