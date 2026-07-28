@@ -22,7 +22,7 @@ from langchain.messages import SystemMessage, HumanMessage
 import numpy as np
 import streamlit as st
 from langchain_community.document_loaders import PyMuPDFLoader
-from PIL import image
+from PIL import Image
 
 #===============API KEY LOAD================
 GOOGLE_API_KEY = st.sidebar.text_input("GOOGLE_API_KEY",type="password")
