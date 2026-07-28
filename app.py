@@ -131,7 +131,7 @@ code, with professional design format, user will upload data and return
 HTML format resume"""
 final_prompt=prompt+resume_maker_prompt()
 
-user-info = st.text_input("Enter your information")
+user_info = st.text_input("Enter your information")
 
 user_details=f"""user details: given below:
 Resume info: {user_info}
