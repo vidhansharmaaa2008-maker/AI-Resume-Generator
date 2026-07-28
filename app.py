@@ -145,11 +145,11 @@ if st.button('generate resume'):
         code = code.replace("PROFILE_IMAGE_PLACEHOLDER", data_uri)
 
 
-      st.html(code, width="stretch", unsafe_allow_javascript=True)
+        st.html(code, width="stretch", unsafe_allow_javascript=True)
 
-      st.divider()
-      respone = agent.invoke({'messages':['role':'user','content':job_prompt}]})
+        st.divider()
+        respone = agent.invoke({'messages':['role':'user','content':job_prompt}]})
 
     
     job_code= response['message'][-1].content[-1]['text']  
-    st.html(code , width="stretch" , unsafe_allow_javascript=True)
+    st.html(job_code , width="stretch" , unsafe_allow_javascript=True)
